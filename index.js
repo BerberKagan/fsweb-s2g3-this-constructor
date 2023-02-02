@@ -84,8 +84,8 @@ console.log(vw.odometer);
   Kendi cümlelerinizle "this" kelimesinin 4 prensibini açıklayın:
   1. Window/Global Object Binding: Global scope’tayken, this değeri window/console nesnesi olacaktır.
   2. Implicit Binding: Örtük bağlama, bir fonksiyonu çağırmak için nokta gösterimi kullanıldığında gerçekleşir.
-  3. New Binding: Bir constructor function(yapıcı fonksiyon) kullandığımızda, this, constructor function tarafından oluşturulan ve döndürülen nesnenin belirli bir örneğini ifade eder.
-  4. Explicit Binding: JavaScript'in call veya apply yöntemini her kullandığımızda, this açıkça tanımlanır. 
+  3. New Binding: Bir constructor function(yapıcı fonksiyon) kullandığımızda, this, constructor function tarafından oluşturulan ve döndürülen nesnenin belirli bir örneğini ifade edecektir. 
+  4. Explicit Binding: JavaScript'in call veya apply yöntemini her kullandığımızda, this açıkça tanımlanır.
 */
 
 
